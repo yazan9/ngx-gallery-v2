@@ -48,6 +48,7 @@ export declare class NgxGalleryComponent implements OnInit, DoCheck, AfterViewIn
     ngDoCheck(): void;
     ngAfterViewInit(): void;
     onResize(): void;
+    onThumbnailsScrolledLeft(): void;
     getImageHeight(): string;
     getThumbnailsHeight(): string;
     getThumbnailsMarginTop(): string;

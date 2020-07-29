@@ -32,6 +32,7 @@ export declare class NgxGalleryThumbnailsComponent implements OnChanges {
     lazyLoading: boolean;
     actions: NgxGalleryAction[];
     onActiveChange: EventEmitter<{}>;
+    thumbnailsScrolledLeft: EventEmitter<{}>;
     private index;
     constructor(sanitization: DomSanitizer, elementRef: ElementRef, helperService: NgxGalleryHelperService);
     ngOnChanges(changes: SimpleChanges): void;
