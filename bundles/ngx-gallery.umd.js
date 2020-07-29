@@ -591,12 +591,12 @@
          */
         NgxGalleryThumbnailsComponent.prototype.moveLeft = function () {
             if (this.canMoveLeft()) {
-                this.thumbnailsScrolledLeft.emit();
                 this.index -= this.moveSize;
                 if (this.index < 0) {
                     this.index = 0;
                 }
                 this.setThumbnailsPosition();
+                this.thumbnailsScrolledLeft.emit();
             }
         };
         /**
