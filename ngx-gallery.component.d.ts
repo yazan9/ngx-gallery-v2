@@ -22,7 +22,6 @@ export declare class NgxGalleryComponent implements OnInit, DoCheck, AfterViewIn
         image: NgxGalleryImage;
     }>;
     thumbnailsScrolledLeft: EventEmitter<{}>;
-    imageScrolledLeft: EventEmitter<{}>;
     smallImages: string[] | SafeResourceUrl[];
     mediumImages: NgxGalleryOrderedImage[];
     bigImages: string[] | SafeResourceUrl[];
