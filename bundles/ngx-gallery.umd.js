@@ -1558,7 +1558,7 @@
                     this.currentOptions.thumbnails = false;
                     this.currentOptions.imageArrows = false;
                 }
-                this.resetThumbnails();
+                //this.resetThumbnails();
             }
         };
         /**
