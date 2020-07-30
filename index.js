@@ -1539,25 +1539,25 @@ var NgxGalleryComponent = /** @class */ (function () {
      * @return {?}
      */
     NgxGalleryComponent.prototype.ngDoCheck = function () {
-        if (this.images !== undefined && (this.images.length !== this.oldImagesLength)
-            || (this.images !== this.oldImages)) {
-            this.oldImagesLength = this.images.length;
-            this.oldImages = this.images;
-            this.setOptions();
-            this.setImages();
-            if (this.images && this.images.length) {
-                this.imagesReady.emit();
-            }
-            // if (this.image) {
-            //     this.image.reset(<number>this.currentOptions.startIndex);
-            // }
-            if (this.currentOptions.thumbnailsAutoHide && this.currentOptions.thumbnails
-                && this.images.length <= 1) {
-                this.currentOptions.thumbnails = false;
-                this.currentOptions.imageArrows = false;
-            }
-            //this.resetThumbnails();
-        }
+        // if (this.images !== undefined && (this.images.length !== this.oldImagesLength)
+        //     || (this.images !== this.oldImages)) {
+        //     this.oldImagesLength = this.images.length;
+        //     this.oldImages = this.images;
+        //     this.setOptions();
+        //     this.setImages();
+        //     if (this.images && this.images.length) {
+        //         this.imagesReady.emit();
+        //     }
+        //     // if (this.image) {
+        //     //     this.image.reset(<number>this.currentOptions.startIndex);
+        //     // }
+        //     if (this.currentOptions.thumbnailsAutoHide && this.currentOptions.thumbnails
+        //         && this.images.length <= 1) {
+        //         this.currentOptions.thumbnails = false;
+        //         this.currentOptions.imageArrows = false;
+        //     }
+        //     //this.resetThumbnails();
+        // }
     };
     /**
      * @return {?}
