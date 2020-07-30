@@ -1548,15 +1548,15 @@ var NgxGalleryComponent = /** @class */ (function () {
             if (this.images && this.images.length) {
                 this.imagesReady.emit();
             }
-            if (this.image) {
-                this.image.reset(/** @type {?} */ (this.currentOptions.startIndex));
-            }
+            // if (this.image) {
+            //     this.image.reset(<number>this.currentOptions.startIndex);
+            // }
             if (this.currentOptions.thumbnailsAutoHide && this.currentOptions.thumbnails
                 && this.images.length <= 1) {
                 this.currentOptions.thumbnails = false;
                 this.currentOptions.imageArrows = false;
             }
-            this.resetThumbnails();
+            //this.resetThumbnails();
         }
     };
     /**
