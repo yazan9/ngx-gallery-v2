@@ -269,7 +269,7 @@
          * @return {?}
          */
         NgxGalleryImageComponent.prototype.reset = function (index) {
-            this.selectedIndex = index;
+            //this.selectedIndex = index;
         };
         /**
          * @return {?}
@@ -1763,9 +1763,9 @@
          * @return {?}
          */
         NgxGalleryComponent.prototype.resetThumbnails = function () {
-            if (this.thubmnails) {
-                this.thubmnails.reset(/** @type {?} */ (this.currentOptions.startIndex));
-            }
+            // if (this.thubmnails) {
+            //     this.thubmnails.reset(<number>this.currentOptions.startIndex);
+            // }
         };
         /**
          * @param {?} index
