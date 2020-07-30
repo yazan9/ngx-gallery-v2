@@ -1539,6 +1539,8 @@ var NgxGalleryComponent = /** @class */ (function () {
      * @return {?}
      */
     NgxGalleryComponent.prototype.ngDoCheck = function () {
+        this.setOptions();
+        this.setImages();
         // if (this.images !== undefined && (this.images.length !== this.oldImagesLength)
         //     || (this.images !== this.oldImages)) {
         //     this.oldImagesLength = this.images.length;
